@@ -31,7 +31,7 @@ Here are some milestone findings and developments in NLP from the past ten years
 
 ### 9. Ethics and Fairness in NLP (2018-2023)
 - **Bias and Fairness Studies**: Increasing attention has been given to understanding and mitigating biases in language models, promoting ethical AI practices.
-- **Interpretability and Explainability*8: Research into making NLP models more interpretable and explainable has gained traction, ensuring transparency in model decisions.
+- **Interpretability and Explainability**: Research into making NLP models more interpretable and explainable has gained traction, ensuring transparency in model decisions.
 
 ### 10. Instruction-based Models (2022-2023)
 - **InstructGPT (2022)**: OpenAI's InstructGPT focused on aligning models with human instructions, improving the usability and reliability of language models for practical applications.
