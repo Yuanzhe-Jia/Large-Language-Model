@@ -5,28 +5,26 @@ from transformers import AutoTokenizer
 model_id = "TechxGenus/Meta-Llama-3-70B-Instruct-AWQ"
 tokenizer = AutoTokenizer.from_pretrained(model_id)
 
-
 messages = [
     {
         "role": "system",
         "content": """
-            You'll be given a short sentence trying to describe two consecutive events of a user when playing with an App.
-            First, please understand the sentence and extract these two events, please come out a comprehensive description of each event.
-            Then, base on the description, please also come out a straightforward and readable(not camel case or snake case) name for each event.
-            In then end, put your result into a JSON which has 2 JSON objects: "start_event" and "end_event" with "name" and "description" keys.
-            Your output should be just a JSON object
+            You will be given a content. 
+            The content describes a period of continuous user behavior on the app that includes 2 critical events: the initial event and the complete event. 
+            First, understand the above content, and come out a description for the initial event and the complete event, respectively. Each description should be less than 20 words.
+            Second, base on the description, come out a straightforward and readable (not camel case or snake case) name for each event. Each event name should be less than 4 words.
+            In the end, only output a JSON in your response that contains 2 objects: "initial_event" and "complete_event" with "event_description" and "event_name" keys.
         """,
     },
     {
         "role": "user",
-        "content": "'search' to 'video play'"
+        "content": "search to video play"
     },
 ]
 
 prompt = tokenizer.apply_chat_template(
     messages, tokenize=False, add_generation_prompt=True
 )
-
 
 # Llama 3 70B
 HOST = "9008"
