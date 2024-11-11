@@ -43,7 +43,7 @@ Ask the LLM to back up its claims with references or details.
 - "What are the current theories on deep learning? Provide sources if possible."
 
 
-### Example: Predict Rules Based On Given Context 
+### Example: Predict Rules Based on Given Context 
 
 ```
 Role:
