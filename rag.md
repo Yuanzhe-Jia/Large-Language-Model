@@ -1,8 +1,11 @@
+### What is RAG
+
 Retrieval-Augmented Generation (RAG) is an approach that combines information retrieval with generative language models to produce accurate and contextually rich outputs. 
 RAG enhances the capabilities of generative models by integrating external knowledge sources, 
 allowing the model to produce more reliable and up-to-date information.
 
 ### Key Components of RAG
+
 1. **Retrieval Module**:
 This component searches for relevant information from a large external knowledge base, such as a database, document repository, or web-based sources.
 When a user poses a query, the retrieval module extracts content that are likely to contain helpful information.
@@ -14,15 +17,18 @@ The retrieved content and the generative model’s capabilities are combined to 
 This integration ensures that the response is factually grounded while also maintaining a natural and coherent language.
 
 ### How RAG Works
+
 - When a query is received, the retrieval module searches for relevant documents.
 - These documents are passed to the generative model, which uses them to generate a response.
 - The generative model can either select the most useful content or synthesize information from multiple sources to create an accurate and informative answer.
 
 ### Benefits of RAG
+
 - **Enhanced Generalization**: The use of external knowledge helps the model handle queries that go beyond its training data.
 - **Improved Accuracy**: By incorporating up-to-date and contextually relevant information, RAG provides more accurate and factually grounded answers.
 
 ### Example: RAG in a Customer Support Chatbot
+
 A notable real-world example of RAG is its use in **question-answering systems** that require up-to-date and domain-specific knowledge. 
 One practical implementation can be seen in **customer support chatbots** used by large companies, like those in the tech or finance industries.
 Imagine a financial institution that needs a chatbot to handle customer queries related to banking products, loan information, or financial regulations. 
