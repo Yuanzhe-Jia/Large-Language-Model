@@ -13,7 +13,7 @@ sql = """
 select distinct on (1)
     lower(event_name) as event_name,
     event_metadata
-from default.mapped_event_detail
+from default.
 where 
     save_date=today() 
     and is_latest=1 
