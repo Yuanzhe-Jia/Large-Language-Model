@@ -87,6 +87,7 @@ for i in df_data['event_name']:
 
 
 # step 3
+# get event names and event metadata
 
 # convert predicted mapping rules to predicted event metadata
 
@@ -153,7 +154,6 @@ df_data['pred_confidence_level'] = pred_confidence_levels
 
 
 # step 4
-
 # get raw event tagkeys
 
 raw_event_tagkeys = []
@@ -211,8 +211,7 @@ for group in retrieved_event:
 
 
 # step 5
-
-# output accuracy
+# output validation report
 
 print("******          accuracy report          ******")
 print()
