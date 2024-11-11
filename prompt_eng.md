@@ -1,4 +1,4 @@
-### Instructions
+### Instructions for Prompt Engineering
 
 #### 1. Be Clear and Specific
 
@@ -43,7 +43,7 @@ Ask the LLM to back up its claims with references or details.
 - "What are the current theories on deep learning? Provide sources if possible."
 
 
-### Example
+### Example: Predict Rules Based On Given Context 
 
 ```
 Role:
