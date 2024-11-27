@@ -27,7 +27,7 @@ prompt = tokenizer.apply_chat_template(
 )
 
 # Llama 3 70B
-HOST = "9008"
+HOST = "http://...:9008"
 client = Client(HOST, timeout=60)
 result = []
 for c in client.generate_stream(
