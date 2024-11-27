@@ -6,16 +6,16 @@ Role:
 You are a professional app engineer, understanding event reporting logics behind app behavior very well.
 
 Context:
-{"event_name": "network_request", "attribute_name": "responseStatusCode", "attribute_value": "200"}
-{"event_name": "network_request", "attribute_name": "responseStatusCode", "attribute_value": "201"}
-{"event_name": "network_request", "attribute_name": "responseStatusCode", "attribute_value": "502"}
-{"event_name": "network_request", "attribute_name": "responseStatusCode", "attribute_value": "504"}
-{"event_name": "network_request", "attribute_name": "responseStatusCode", "attribute_value": "204"}
-{"event_name": "network_request", "attribute_name": "responseStatusCode", "attribute_value": "500"}
-{"event_name": "network_request", "attribute_name": "responseStatusCode", "attribute_value": "304"}
-{"event_name": "network_request", "attribute_name": "responseStatusCode", "attribute_value": "429"}
-{"event_name": "network_request", "attribute_name": "responseStatusCode", "attribute_value": "400"}
-{"event_name": "network_request", "attribute_name": "responseStatusCode", "attribute_value": "524"}
+{"event_name": "network_request", "attribute_name": "status_code", "attribute_value": "200"}
+{"event_name": "network_request", "attribute_name": "status_code", "attribute_value": "201"}
+{"event_name": "network_request", "attribute_name": "status_code", "attribute_value": "502"}
+{"event_name": "network_request", "attribute_name": "status_code", "attribute_value": "504"}
+{"event_name": "network_request", "attribute_name": "status_code", "attribute_value": "204"}
+{"event_name": "network_request", "attribute_name": "status_code", "attribute_value": "500"}
+{"event_name": "network_request", "attribute_name": "status_code", "attribute_value": "304"}
+{"event_name": "network_request", "attribute_name": "status_code", "attribute_value": "429"}
+{"event_name": "network_request", "attribute_name": "status_code", "attribute_value": "400"}
+{"event_name": "network_request", "attribute_name": "status_code", "attribute_value": "524"}
 {"event_name": "network_request", "attribute_name": "user_logged_in", "attribute_value": "true"}
 
 Each line of the above content represents an attribute of an event and a possbile values it can hold.
@@ -45,16 +45,16 @@ Role:
 You are a professional app engineer, understanding event reporting logics behind app behavior very well.
 
 Context:
-{"event_name": "network_request", "attribute_name": "responseStatusCode", "attribute_value": "200"}
-{"event_name": "network_request", "attribute_name": "responseStatusCode", "attribute_value": "201"}
-{"event_name": "network_request", "attribute_name": "responseStatusCode", "attribute_value": "502"}
-{"event_name": "network_request", "attribute_name": "responseStatusCode", "attribute_value": "504"}
-{"event_name": "network_request", "attribute_name": "responseStatusCode", "attribute_value": "204"}
-{"event_name": "network_request", "attribute_name": "responseStatusCode", "attribute_value": "500"}
-{"event_name": "network_request", "attribute_name": "responseStatusCode", "attribute_value": "304"}
-{"event_name": "network_request", "attribute_name": "responseStatusCode", "attribute_value": "429"}
-{"event_name": "network_request", "attribute_name": "responseStatusCode", "attribute_value": "400"}
-{"event_name": "network_request", "attribute_name": "responseStatusCode", "attribute_value": "524"}
+{"event_name": "network_request", "attribute_name": "status_code", "attribute_value": "200"}
+{"event_name": "network_request", "attribute_name": "status_code", "attribute_value": "201"}
+{"event_name": "network_request", "attribute_name": "status_code", "attribute_value": "502"}
+{"event_name": "network_request", "attribute_name": "status_code", "attribute_value": "504"}
+{"event_name": "network_request", "attribute_name": "status_code", "attribute_value": "204"}
+{"event_name": "network_request", "attribute_name": "status_code", "attribute_value": "500"}
+{"event_name": "network_request", "attribute_name": "status_code", "attribute_value": "304"}
+{"event_name": "network_request", "attribute_name": "status_code", "attribute_value": "429"}
+{"event_name": "network_request", "attribute_name": "status_code", "attribute_value": "400"}
+{"event_name": "network_request", "attribute_name": "status_code", "attribute_value": "524"}
 {"event_name": "network_request", "attribute_name": "user_logged_in", "attribute_value": "true"}
 
 Each line of the above content represents an attribute of an event and a possbile values it can hold.
