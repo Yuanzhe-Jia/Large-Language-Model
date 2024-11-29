@@ -7,6 +7,7 @@ from sentence_transformers import SentenceTransformer
 import pandas as pd
 import numpy as np
 import json
+import requests
 
 # 
 # get data
@@ -218,7 +219,6 @@ The output Json should follow the below format:
 
 #
 # request LLM based on the prompt
-import requests
 
 url = "https://.../inference"
 
