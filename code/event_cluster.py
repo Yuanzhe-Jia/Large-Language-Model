@@ -115,7 +115,7 @@ The output Json should follow the below format:
 # request LLM based on the prompt
 import requests
 
-url = "https://llm-mb.qe2.conviva.com/activation-llm/inference"
+url = "https://.../inference"
 
 # request body
 payload = {
@@ -220,7 +220,7 @@ The output Json should follow the below format:
 # request LLM based on the prompt
 import requests
 
-url = "https://llm-mb.qe2.conviva.com/activation-llm/inference"
+url = "https://.../inference"
 
 # request body
 payload = {
