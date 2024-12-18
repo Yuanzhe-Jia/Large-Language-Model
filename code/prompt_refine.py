@@ -39,7 +39,7 @@ In the end, output a JSON in your response that contains the confidence value an
 
 # # # # # # # # # # 
 
-# prepare for a context for OR
+# prepare for a context for AND
 context_for_and = """
 Role:
 You are a professional app engineer, understanding event reporting logics behind app behavior very well.
